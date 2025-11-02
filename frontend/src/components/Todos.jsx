@@ -9,11 +9,8 @@
 export function Todos({ todos, setTodos }) {
 
     const markAsCompleted = (id) => {
-        fetch("http://localhost:4999/completed", {
+        fetch(`http://localhost:4999/completed/${id}`, {
             method: "PUT",
-            body: JSON.stringify({
-                _id: id
-            }),
             headers: {
                 "Content-Type": "application/json"
             }
