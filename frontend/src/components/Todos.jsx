@@ -26,7 +26,7 @@ export function Todos({ todos, setTodos }) {
                     alert("Todo marked as completed!");
                 }
             });
-    };
+        };
 
     return (
         <div>

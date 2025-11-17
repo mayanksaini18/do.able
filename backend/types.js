@@ -15,16 +15,3 @@ module.exports = {
     createTodo,
     updateTodo
 }
-
-
-
-
-
-// {
-//     title : String
-//     description : String
-// }
-
-// {
-//     id : string
-// }
